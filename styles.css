@@ -1,0 +1,22 @@
+body {
+	background-color: #f0f0f0;
+}
+
+p,
+li {
+	font-size: 18px;
+}
+
+.kitten-size {
+	width: 500px;
+	/* display: block; */
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.the-end {
+	background-image: url("../Mini Project 2 CSS/folder1/bg img.jpg");
+	opacity: 0.7;
+}

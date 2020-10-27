@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first HTML & CSS exercise.</title>
+		<link rel="stylesheet" href="styles.css" />
+		<!-- Use internal CSS to style h2 -->
+		<style>
+			h2 {
+				font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Use inline CSS to style h1 -->
+		<h1 style="color: brown; text-align: center;">
+			Understand the HTML Structure
+		</h1>
+		<h2>Get familiar with HTML elements, HTML attributes and its values.</h2>
+		<ol>
+			<li>HTML element</li>
+			<ul>
+				<li>h1, h1, ... , h6 for heading</li>
+				<li>
+					Google out "<a href="https://www.whatsmyip.org/html-characters/"
+						>HTML Special Character</a
+					>" and try to type the paragraph tag as shown below
+				</li>
+				<li>&lt;p&gt;&nbsp;&nbsp;&lt;&frasl;p&gt;</li>
+				<li>img stand for image</li>
+				<li>ul(unordered list) and ol(ordered list) with li as list item</li>
+			</ul>
+			<li>HTML attributes and value</li>
+			<ul>
+				<li>
+					img tag have a "src" attribute with the actual image name as its value
+				</li>
+			</ul>
+		</ol>
+		<img class="kitten-size" src="kitten.png" alt="cute kitten" />
+		<img src="folder1/nemo.png" alt="nemo" />
+		<p>I know how to put images on my web page after this exercise</p>
+		<p>
+			The Nemo picture is inside a folder named "folder1" where "folder1" is
+			inside "MyExercise" folder
+		</p>
+		<ul>
+			<li>Notice that the images are align side by side</li>
+			<li>The two paragraph tag above doesn't align side by side</li>
+			<li class="bold">
+				This is because img tag have default "inline" display property
+			</li>
+			<li class="bold">paragraph tag have default "block" display property</li>
+		</ul>
+		<p class="the-end">Finally I understand a little bit of CSS</p>
+	</body>
+</html>
